@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image img {
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo {
+    height: 50px;
+    width: 50%;
+}
+
+.my-contact {
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.face img {
+    border-radius: 50%;
+}
+
+.face {
+    border-left: 1px solid rgb(214, 213, 213);
+    padding-left: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.face button {
+    background-color: white;
+    border: 0;
+}
+.color {
+    color: rgb(216, 213, 213);
+}
+main {
+    background-color: rgb(250, 247, 247);
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav {
+    background-color: rgb(250, 247, 247);
+    height: auto;
+    padding: 30px 70px;
+}
+
+.main {
+    background-color: rgb(250, 247, 247);
+    width: calc(60% - 30px);
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    width: calc(100% - 30px);
+    height: 50%;  
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+h2 {
+    padding-bottom: 20px;
+}
+
+.tour {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mid {
+    background-color: rgb(194, 190, 190);
+    width: calc(100% - 20px);
+    gap: 5px;
+    border: 1 solid rgb(194, 190, 190);
+    border-radius: 10px;
+    display: flex;
+}
+
+.box-tour {
+    width: calc(95% - 5px);
+    padding-left: 10px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.pass {
+    width: calc(5% - 5px);
+    justify-content: center;
+    align-content: end;
+}
+article {
+    width: calc(100% - 30px);
+}
+
+article .cards {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+.card-item  {
+    width: calc(50% - 20px);
+    padding: 5px;
+}
+
+.container {
+    margin: 20px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.child01 {
+    width: calc(100% - 10px);
+    margin: 10px 0;
+}
+
+.child01 input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.child02 {
+    width: calc(50% - 10px);
+}
+
+.child02 input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.check-box {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.check-box input {
+    width: 15px;
+    height: 15px;
+}
+
+article button {
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(55, 102, 233);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+.aside02 {
+    display: none;
+}
+.aside01 {
+    background-color: white;
+    width: calc(30% - 20px);
+    padding: 20px;
+    border: 1px solid rgb(231, 226, 226);
+    border-radius: 10px;
+}
+
+.colg  {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.colg-0{
+    width: 100%;
+}
+
+.colg img {
+    border-radius: 20px;
+}
+
+.about {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about p {
+    width: 100%;
+}
+
+.guest {
+    padding: 10px 0;
+    width: calc(100% - 10px);
+}
+
+.check-in {
+    border-top: 1px solid rgb(220, 216, 216);
+    width: calc(50% - 10px);
+}
+
+.check-out {
+    width: calc(50% - 10px);
+    border-left: 1px solid rgb(220, 216, 216);
+    padding-left:  10px;
+}
+
+.book {
+    width: 100%;
+}
+
+.con {
+    padding-left: 10px;
+}
+.child {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    width: calc(80% - 10px);
+}
+
+.con .alt {
+    background-color: rgb(251, 246, 246);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.blog {
+    background-image: url(./bg.png) ;
+    background-size: cover; /* bù vào khoản trống còn lại */
+    background-repeat: no-repeat;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    width: calc(100% - 30px);
+    height: 230px;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.lem {
+    width: calc(50% - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.lem h2 {
+    font-size: 30px;
+}
+
+.lem p {
+    width: 370px;
+}
+
+.lim p {
+    width: 400px;
+}
+
+.lim {
+    background-color: white;
+    width: calc(300px - 10px);
+    height: 50px;
+    line-height: 50px;
+    padding: 5px;
+    border: 1px solid snow;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lim input {
+    border: 0;
+}
+
+.lim button {
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 100px;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 50px 150px;
+    width: 100%;
+    display: flex;
+    gap: 50px;  
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+.figg01 {
+    width: calc(25% - 50px);
+}
+
+.cat {
+    width: calc(75% - 50px);
+    gap: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.figg02 {
+    display: none;
+}
+.figg01 img {
+    margin-bottom: 10px;
+}
+
+.figg01 .theme {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(231, 225, 225);
+    color: black;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.theme button {
+    background-color: rgb(231, 225, 225);
+    width: calc(40% - 10px);
+    height: 20px;
+    border: 1px solid rgb(231, 225, 225);
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 50%;
+    }
+
+    .navi {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .tour {
+        width: 100%;
+    }
+    
+    .box-tour{
+        width: 90%;
+    }
+
+    .pass {
+        width: 10%;
+    }
+
+    main {   
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    article button {
+        width: 100%;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+
+    .card-item  {
+        width: 100%;
+    }
+
+    article button {
+        margin-left: 0;
+    }
+    .aside01 {
+        display: none;
+    }
+    .aside02 {
+        display: block;
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid rgb(231, 226, 226);
+        border-radius: 10px;
+        
+    }
+    .face p {
+        display: none;
+    }
+    .face button {
+        display: none;
+    }
+
+    .blog {
+        width: 100%;
+    }
+    
+    .blog {
+        width:100% ;
+        margin: 50px 0;
+        padding: 20px 50px;
+    }
+
+    .lem {
+        width: 100%;
+        gap: 0;
+    }
+
+    .lem p {
+        width: 320px;
+    }
+
+    .lim {
+        width: 100%;
+    }
+
+    .figg01{
+        display: none;
+    }
+
+    .figg02 {
+        display: block;
+        width: calc(25% - 50px);
+    }
+    footer {
+        gap: 40px;  
+        flex-wrap: wrap; 
+        flex-direction: column;
+        margin: 50px;
+    }
+    .cat {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .may {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(205, 204, 204) ;
+    }
+    .may .color {
+        color: black;
+    }
+
+    .figg02 .theme {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(231, 225, 225);
+        color: black;
+        padding-top: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        border: 0;
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .theme button {
+        background-color: rgb(231, 225, 225);
+        width: calc(50% - 5px);
+        height: 20px;
+        border: 1px solid rgb(231, 225, 225);
+    }
+    .figg02 img {
+        margin-bottom: 10px;
+    }
+}
