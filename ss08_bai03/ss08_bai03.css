@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {
+    width: calc(50% - 20px);
+}
+
+@media screen and (max-width: 480px) {
+    .child {
+        width: calc(100% - 20px);
+    }
+}
